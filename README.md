@@ -15,7 +15,21 @@ Exploring a turnkey starting point for JS projects.
     + React
     + Lodash
 - Publishing bleeding edge stuff to es5 compatible lib
-- pushstate compatible server for nice single page app routing
+- live coding
+- production build
+- deploying to ???
+    + pushstate compatible server for nice single page app routing
+- firebase
+    + users?
+- canvas
+    + createjs
+- webfonts
+    + typekit
+    + npm?
+- deps:
+    + redux?
+    + immutable?
+    + css/style?
 
 # Steps Taken
 - create a repo on Github
