@@ -11,7 +11,9 @@ Exploring a turnkey starting point for JS projects.
     + Webpack
     + Babel
     + ESLint
-- 
+- Base deps
+    + React
+    + Lodash
 
 # Steps Taken
 - create a repo on Github
@@ -22,8 +24,21 @@ Exploring a turnkey starting point for JS projects.
 - install some deps: 
     -- dev deps
     + webpack
-    + babel
+    + babel babel-cli babel-core babel-loader babel-preset-es2015 babel-react
     + eslint
     -- deps
-    + react
+    + react, react-dom
     + lodash
+- update NPM: `npm update npm -g`
+- add a .gitignore
+- wire babel setup in package.json
+- 
+
+
+
+
+
+
+
+
+
