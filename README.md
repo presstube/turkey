@@ -14,6 +14,7 @@ Exploring a turnkey starting point for JS projects.
 - Base deps
     + React
     + Lodash
+- Publishing bleeding edge stuff to es5 compatible lib
 
 # Steps Taken
 - create a repo on Github
@@ -32,7 +33,8 @@ Exploring a turnkey starting point for JS projects.
 - update NPM: `npm update npm -g`
 - add a .gitignore
 - wire babel setup in package.json
-- 
+- setup eslint config
+- setup eslint for editor (already setup.. not sure what I did)
 
 
 
