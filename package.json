@@ -4,6 +4,8 @@
   "description": "Exploring a turnkey starting point for JS projects.",
   "main": "src/main.js",
   "scripts": {
+    "beforebuild": "mkdir -p build && cp index.html build",
+    "start": "npm run beforebuild && webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src/main.js",
     "postversion": "git push && git push --tags"
@@ -33,11 +35,12 @@
     "babel-preset-stage-1": "^6.5.0",
     "eslint": "^2.8.0",
     "eslint-plugin-react": "^5.0.1",
-    "webpack": "^1.13.0"
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
   },
   "babel": {
     "presets": [
-      "es2016",
+      "es2015",
       "react",
       "stage-1"
     ]

@@ -15,6 +15,7 @@ Exploring a turnkey starting point for JS projects.
     + React
     + Lodash
 - Publishing bleeding edge stuff to es5 compatible lib
+- pushstate compatible server for nice single page app routing
 
 # Steps Taken
 - create a repo on Github
@@ -35,9 +36,9 @@ Exploring a turnkey starting point for JS projects.
 - wire babel setup in package.json
 - setup eslint config
 - setup eslint for editor (already setup.. not sure what I did)
-
-
-
+- setup webpack
+    + dev
+    + build
 
 
 
