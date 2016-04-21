@@ -1,5 +1,5 @@
 import React from 'react'
 
-let foo = <div />
+const foo = <div />
 
 console.log(foo)
