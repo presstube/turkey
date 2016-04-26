@@ -17,6 +17,7 @@ Exploring a turnkey starting point for JS projects.
 - Publishing bleeding edge stuff to es5 compatible lib
 - live coding
 - production build
+    + only uglify app code?
 - deploying to ???
     + pushstate compatible server for nice single page app routing
 - firebase
