@@ -5,12 +5,12 @@
   "main": "src/main.js",
   "scripts": {
     "beforebuild": "mkdir -p build && cp index.html build",
-    "start": "npm run beforebuild && webpack-dev-server",
+    "start": "npm run beforebuild && webpack-dev-server -d",
     "start-production": "NODE_ENV=production npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src/main.js",
     "postversion": "git push && git push --tags",
-    "build-production": "export NODE_ENV=production; npm run beforebuild && webpack --verbose --progress"
+    "build-production": "export NODE_ENV=production; npm run beforebuild && webpack -p --devtool sourcemap"
   },
   "repository": {
     "type": "git",
