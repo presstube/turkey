@@ -50,9 +50,12 @@ Exploring a turnkey starting point for JS projects.
 - wire babel setup in package.json
 - setup eslint config
 - setup eslint for editor (already setup.. not sure what I did)
-- setup webpack
-    + dev
-    + build
+- setup webpack dev
+- setup webpack build
+    + production
+    + uglify
+    + added babel polyfill for app & webpack config
+    + sniffing ENV, default to 'development' and blows up on unknown
 
 
 
